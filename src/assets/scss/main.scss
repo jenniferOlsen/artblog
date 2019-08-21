@@ -40,7 +40,7 @@
 		)
 	));
 
-	$size-header-width: 35%;
+	$size-header-width: 20%;
 	$size-header-pad: 4em;
 
 /* Basic */
@@ -466,6 +466,11 @@
 
 		&.thumb {
 			text-align: center;
+
+			img {
+				height: 175px;
+				object-fit: cover;
+			}
 
 			&:after {
 				@include vendor('transition', 'opacity #{_duration(transition)} ease-in-out');
@@ -989,9 +994,7 @@
 
 	#main {
 		margin-left: $size-header-width;
-		max-width: 50em + $size-header-pad;
 		padding: ($size-header-pad * 2) $size-header-pad $size-header-pad $size-header-pad;
-		width: calc(100% - #{$size-header-width});
 
 		> section {
 			border-top: solid 2px _palette(border);
@@ -1196,7 +1199,7 @@
 
 	@include breakpoint(large) {
 
-		$size-header-width: 30%;
+		$size-header-width: 20%;
 		$size-header-pad: 3em;
 
 		/* Header */
