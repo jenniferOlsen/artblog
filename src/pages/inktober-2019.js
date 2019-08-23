@@ -1,5 +1,6 @@
 import React from 'react'
 import SEO from '../components/seo'
+import Layout from '../components/layout'
 import Gallery from '../components/Gallery'
 
 import thumb02 from '../assets/images/thumbs/02.jpg'
@@ -16,7 +17,7 @@ import full06 from '../assets/images/fulls/06.jpg'
 
 import test from '../assets/images/test.jpg'
 
-const DEFAULT_IMAGES = [
+const images = [
   {
     id: '1',
     source: test,
@@ -66,19 +67,21 @@ class Inktober2019 extends React.Component {
     return (
       <>
         <SEO title="Inktober 2019" />
-        <section>
-          <h2>Inktober 2019</h2>
-          <Gallery
-            images={ DEFAULT_IMAGES.map(
-              ({ source, thumbnail, caption, description }) => ({
-                source,
-                thumbnail,
-                caption,
-                description,
-              })
-            ) }
-          />
-        </section>
+        <Layout>
+          <section id="main">
+            <h2>Inktober 2019</h2>
+            <Gallery
+              images={ images.map(
+                ({ source, thumbnail, caption, description }) => ({
+                  source,
+                  thumbnail,
+                  caption,
+                  description,
+                })
+              ) }
+            />
+          </section>
+        </Layout>
       </>
     )
   }

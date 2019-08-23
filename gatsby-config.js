@@ -11,7 +11,7 @@ module.exports = {
       options: {
         name: 'Art blog',
         short_name: 'artblog',
-        start_url: '/',
+        start_url: '/inktober-2019',
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',

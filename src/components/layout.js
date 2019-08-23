@@ -1,5 +1,6 @@
 import React from 'react'
-import '../assets/scss/main.scss'
+import '../assets/scss/strata.scss'
+import '../assets/scss/styles.scss'
 
 import Header from './Header'
 

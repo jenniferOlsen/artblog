@@ -1,0 +1,19 @@
+@media(max-width: 700px) {
+  .work-item {
+    width: 50%;
+  }
+}
+
+@media(max-width: 425px) {
+  .work-item {
+    width: 100%;
+  }
+}
+
+nav {
+  margin-top: 10%;
+  li {
+    list-style-type: none;
+  }
+}
+
