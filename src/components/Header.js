@@ -13,7 +13,7 @@ class Header extends React.Component {
           <nav>
             <ul>
               <li><a href="/inktober-2019">Inktober 2019</a></li>
-              <li><a href="#">Book Covers</a></li>
+              <li><a href="/bookcovers">Book Covers</a></li>
             </ul>
           </nav>  
         </div>
