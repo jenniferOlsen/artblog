@@ -6,4 +6,4 @@ Run `gatsby develop` in the terminal to start.
 
 ## Deployment
 
-Hosted on Netlify
+Automatically deploys to Netlify on push to `master`
