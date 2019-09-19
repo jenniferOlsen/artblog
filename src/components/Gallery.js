@@ -20,7 +20,7 @@ class Gallery extends Component {
     }))
   }
   renderGallery(images) {
-    if (!images.id) return 'Coming soon'
+    if (!images[0].source) return 'Coming soon'
 
     const gallery = images.map((obj, i) => {
       return (
