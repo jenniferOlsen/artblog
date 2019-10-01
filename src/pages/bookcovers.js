@@ -13,8 +13,14 @@ import stairway from '../assets/images/bookcovers/stairway.jpg'
 import stairwayhr from '../assets/images/bookcovers/stairwayHR.jpg'
 import kansas from '../assets/images/bookcovers/kansas.jpg'
 import kansashr from '../assets/images/bookcovers/kansasHR.jpg'
+import prisoner from '../assets/images/bookcovers/prisoner.jpg'
+import prisonerHR from '../assets/images/bookcovers/prisonerHR.jpg'
 
 const images = [
+  {
+    source: prisonerHR,
+    thumbnail: prisoner,
+  },
   {
     source: stormwitchhr,
     thumbnail: stormwitch,

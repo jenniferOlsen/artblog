@@ -3,17 +3,16 @@ import SEO from '../components/seo'
 import Layout from '../components/layout'
 import Gallery from '../components/Gallery'
 
-// import full02 from '../assets/images/inktober2019/02.jpg'
+import Ring01 from '../assets/images/inktober2019/191001-ring.jpg'
 
 const images = [
   {
-    // id: '1',
-    // source: full02,
-    // thumbnail: full02,
-    // caption: 'prompt',
-    // description: 'date',
+    source: Ring01,
+    thumbnail: Ring01,
+    caption: 'Ring',
+    description: '10-01-2019',
   },
-  
+
 ]
 
 class Inktober2019 extends React.Component {
