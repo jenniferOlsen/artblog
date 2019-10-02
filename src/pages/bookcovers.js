@@ -15,8 +15,14 @@ import kansas from '../assets/images/bookcovers/kansas.jpg'
 import kansashr from '../assets/images/bookcovers/kansasHR.jpg'
 import prisoner from '../assets/images/bookcovers/prisoner.jpg'
 import prisonerHR from '../assets/images/bookcovers/prisonerHR.jpg'
+import batwitch from '../assets/images/bookcovers/bat-witch.jpg'
+import batwitchHR from '../assets/images/bookcovers/bat-witchHR.jpg'
 
 const images = [
+  {
+    source: batwitchHR,
+    thumbnail: batwitch,
+  },
   {
     source: prisonerHR,
     thumbnail: prisoner,

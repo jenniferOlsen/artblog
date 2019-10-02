@@ -3,16 +3,22 @@ import SEO from '../components/seo'
 import Layout from '../components/layout'
 import Gallery from '../components/Gallery'
 
-import Ring01 from '../assets/images/inktober2019/191001-ring.jpg'
+import ring01 from '../assets/images/inktober2019/191001-ring.jpg'
+import mindless02 from '../assets/images/inktober2019/191002-mindless.jpg'
 
 const images = [
   {
-    source: Ring01,
-    thumbnail: Ring01,
+    source: ring01,
+    thumbnail: ring01,
     caption: 'Ring',
     description: '10-01-2019',
   },
-
+  {
+    source: mindless02,
+    thumbnail: mindless02,
+    caption: 'Mindless',
+    description: '10-02-2019',
+  },
 ]
 
 class Inktober2019 extends React.Component {
