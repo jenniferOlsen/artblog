@@ -5,13 +5,14 @@ import Gallery from '../components/Gallery'
 
 import ring01 from '../assets/images/inktober2019/191001-ring.jpg'
 import mindless02 from '../assets/images/inktober2019/191002-mindless.jpg'
+import bait03 from '../assets/images/inktober2019/191003-bait.jpg'
 
 const images = [
   {
-    source: ring01,
-    thumbnail: ring01,
-    caption: 'Ring',
-    description: '10-01-2019',
+    source: bait03,
+    thumbnail: bait03,
+    caption: 'Bait',
+    description: '10-03-2019',
   },
   {
     source: mindless02,
@@ -19,6 +20,13 @@ const images = [
     caption: 'Mindless',
     description: '10-02-2019',
   },
+  {
+    source: ring01,
+    thumbnail: ring01,
+    caption: 'Ring',
+    description: '10-01-2019',
+  },
+  
 ]
 
 class Inktober2019 extends React.Component {
