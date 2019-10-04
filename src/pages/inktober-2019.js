@@ -6,8 +6,15 @@ import Gallery from '../components/Gallery'
 import ring01 from '../assets/images/inktober2019/191001-ring.jpg'
 import mindless02 from '../assets/images/inktober2019/191002-mindless.jpg'
 import bait03 from '../assets/images/inktober2019/191003-bait.jpg'
+import freeze04 from '../assets/images/inktober2019/191004-freeze.jpg'
 
 const images = [
+  {
+    source: freeze04,
+    thumbnail: freeze04,
+    caption: 'Freeze',
+    description: '10-04-2019',
+  },
   {
     source: bait03,
     thumbnail: bait03,
