@@ -7,8 +7,27 @@ import ring01 from '../assets/images/inktober2019/191001-ring.jpg'
 import mindless02 from '../assets/images/inktober2019/191002-mindless.jpg'
 import bait03 from '../assets/images/inktober2019/191003-bait.jpg'
 import freeze04 from '../assets/images/inktober2019/191004-freeze.jpg'
+import build05 from '../assets/images/inktober2019/191005-build.jpg'
+import husky06 from '../assets/images/inktober2019/191006-husky.jpg'
+import enchanted07 from '../assets/images/inktober2019/191007-enchanted.jpg'
 
 const images = [
+  {
+    source: enchanted07,
+    thumbnail: enchanted07,
+    caption: 'Enchanted',
+    description: '10-07-2019',
+  },{
+    source: husky06,
+    thumbnail: husky06,
+    caption: 'Husky',
+    description: '10-06-2019',
+  },{
+    source: build05,
+    thumbnail: build05,
+    caption: 'Build',
+    description: '10-05-2019',
+  },
   {
     source: freeze04,
     thumbnail: freeze04,
