@@ -10,8 +10,15 @@ import freeze04 from '../assets/images/inktober2019/191004-freeze.jpg'
 import build05 from '../assets/images/inktober2019/191005-build.jpg'
 import husky06 from '../assets/images/inktober2019/191006-husky.jpg'
 import enchanted07 from '../assets/images/inktober2019/191007-enchanted.jpg'
+import frail08 from '../assets/images/inktober2019/191008-frail.jpg'
 
 const images = [
+  {
+    source: frail08,
+    thumbnail: frail08,
+    caption: 'Frail',
+    description: '10-08-2019',
+  },
   {
     source: enchanted07,
     thumbnail: enchanted07,
