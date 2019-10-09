@@ -24,13 +24,13 @@ nav {
 }
 
 .work-item {
-  height: 300px;
+  height: calc(300px + 3em);
 }
 
 @media(max-width: 700px) {
   .work-item {
     width: 50%;
-    height: 450px;
+    height: calc(450px + 3em);
   }
 }
 
