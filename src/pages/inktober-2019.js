@@ -12,8 +12,15 @@ import husky06 from '../assets/images/inktober2019/191006-husky.jpg'
 import enchanted07 from '../assets/images/inktober2019/191007-enchanted.jpg'
 import frail08 from '../assets/images/inktober2019/191008-frail.jpg'
 import swing09 from '../assets/images/inktober2019/191009-swing.jpg'
+import pattern10 from '../assets/images/inktober2019/191010-pattern.jpg'
 
 const images = [
+  {
+    source: pattern10,
+    thumbnail: pattern10,
+    caption: 'Pattern',
+    description: '10-10-2019',
+  },
   {
     source: swing09,
     thumbnail: swing09,
