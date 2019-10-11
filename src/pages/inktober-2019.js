@@ -13,8 +13,15 @@ import enchanted07 from '../assets/images/inktober2019/191007-enchanted.jpg'
 import frail08 from '../assets/images/inktober2019/191008-frail.jpg'
 import swing09 from '../assets/images/inktober2019/191009-swing.jpg'
 import pattern10 from '../assets/images/inktober2019/191010-pattern.jpg'
+import snow11 from '../assets/images/inktober2019/191011-snow.jpg'
 
 const images = [
+  {
+    source: snow11,
+    thumbnail: snow11,
+    caption: 'Snow',
+    description: '10-11-2019',
+  },
   {
     source: pattern10,
     thumbnail: pattern10,
