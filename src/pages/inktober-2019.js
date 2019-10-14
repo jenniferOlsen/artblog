@@ -14,8 +14,29 @@ import frail08 from '../assets/images/inktober2019/191008-frail.jpg'
 import swing09 from '../assets/images/inktober2019/191009-swing.jpg'
 import pattern10 from '../assets/images/inktober2019/191010-pattern.jpg'
 import snow11 from '../assets/images/inktober2019/191011-snow.jpg'
+import dragon12 from '../assets/images/inktober2019/191012-dragon.jpg'
+import ash13 from '../assets/images/inktober2019/191013-ash.jpg'
+import overgrown14 from '../assets/images/inktober2019/191014-overgrown.jpg'
 
 const images = [
+  {
+    source: overgrown14,
+    thumbnail: overgrown14,
+    caption: 'Overgrown',
+    description: '10-14-2019',
+  },
+  {
+    source: ash13,
+    thumbnail: ash13,
+    caption: 'Ash',
+    description: '10-13-2019',
+  },
+  {
+    source: dragon12,
+    thumbnail: dragon12,
+    caption: 'Dragon',
+    description: '10-12-2019',
+  },
   {
     source: snow11,
     thumbnail: snow11,
