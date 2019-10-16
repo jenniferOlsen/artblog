@@ -18,8 +18,15 @@ import dragon12 from '../assets/images/inktober2019/191012-dragon.jpg'
 import ash13 from '../assets/images/inktober2019/191013-ash.jpg'
 import overgrown14 from '../assets/images/inktober2019/191014-overgrown.jpg'
 import legend15 from '../assets/images/inktober2019/191015-legend.jpg'
+import wild16 from '../assets/images/inktober2019/191016-wild.jpg'
 
 const images = [
+  {
+    source: wild16,
+    thumbnail: wild16,
+    caption: 'Wild',
+    description: '10-16-2019',
+  },
   {
     source: legend15,
     thumbnail: legend15,
