@@ -19,8 +19,15 @@ import ash13 from '../assets/images/inktober2019/191013-ash.jpg'
 import overgrown14 from '../assets/images/inktober2019/191014-overgrown.jpg'
 import legend15 from '../assets/images/inktober2019/191015-legend.jpg'
 import wild16 from '../assets/images/inktober2019/191016-wild.jpg'
+import ornament17 from '../assets/images/inktober2019/191017.jpg'
 
 const images = [
+  {
+    source: ornament17,
+    thumbnail: ornament17,
+    caption: 'Ornament',
+    description: '10-17-2019',
+  },
   {
     source: wild16,
     thumbnail: wild16,
