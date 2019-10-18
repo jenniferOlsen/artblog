@@ -20,8 +20,15 @@ import overgrown14 from '../assets/images/inktober2019/191014-overgrown.jpg'
 import legend15 from '../assets/images/inktober2019/191015-legend.jpg'
 import wild16 from '../assets/images/inktober2019/191016-wild.jpg'
 import ornament17 from '../assets/images/inktober2019/191017.jpg'
+import misfit18 from '../assets/images/inktober2019/191018-misfit.jpg'
 
 const images = [
+  {
+    source: misfit18,
+    thumbnail: misfit18,
+    caption: 'Misfit',
+    description: '10-18-2019',
+  },
   {
     source: ornament17,
     thumbnail: ornament17,
