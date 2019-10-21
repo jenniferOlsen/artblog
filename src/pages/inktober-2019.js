@@ -21,8 +21,29 @@ import legend15 from '../assets/images/inktober2019/191015-legend.jpg'
 import wild16 from '../assets/images/inktober2019/191016-wild.jpg'
 import ornament17 from '../assets/images/inktober2019/191017.jpg'
 import misfit18 from '../assets/images/inktober2019/191018-misfit.jpg'
+import sling19 from '../assets/images/inktober2019/191019-sling.jpg'
+import tread20 from '../assets/images/inktober2019/191020-tread.jpg'
+import treasure21 from '../assets/images/inktober2019/191021-treasure.jpg'
 
 const images = [
+  {
+    source: treasure21,
+    thumbnail: treasure21,
+    caption: 'Treasure',
+    description: '10-21-2019',
+  },
+  {
+    source: tread20,
+    thumbnail: tread20,
+    caption: 'Tread',
+    description: '10-20-2019',
+  },
+  {
+    source: sling19,
+    thumbnail: sling19,
+    caption: 'Sling',
+    description: '10-19-2019',
+  },
   {
     source: misfit18,
     thumbnail: misfit18,
