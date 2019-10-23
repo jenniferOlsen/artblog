@@ -25,8 +25,15 @@ import sling19 from '../assets/images/inktober2019/191019-sling.jpg'
 import tread20 from '../assets/images/inktober2019/191020-tread.jpg'
 import treasure21 from '../assets/images/inktober2019/191021-treasure.jpg'
 import ghost22 from '../assets/images/inktober2019/191022-ghost.jpg'
+import ancient23 from '../assets/images/inktober2019/191023-ancient.jpg'
 
 const images = [
+  {
+    source: ancient23,
+    thumbnail: ancient23,
+    caption: 'Ancient',
+    description: '10-23-2019',
+  },
   {
     source: ghost22,
     thumbnail: ghost22,
