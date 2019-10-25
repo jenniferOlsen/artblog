@@ -27,8 +27,15 @@ import treasure21 from '../assets/images/inktober2019/191021-treasure.jpg'
 import ghost22 from '../assets/images/inktober2019/191022-ghost.jpg'
 import ancient23 from '../assets/images/inktober2019/191023-ancient.jpg'
 import dizzy24 from '../assets/images/inktober2019/191024-dizzy.jpg'
+import tasty25 from '../assets/images/inktober2019/191025-tasty.jpg'
 
 const images = [
+  {
+    source: tasty25,
+    thumbnail: tasty25,
+    caption: 'Tasty',
+    description: '10-25-2019',
+  },
   {
     source: dizzy24,
     thumbnail: dizzy24,
