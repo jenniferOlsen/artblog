@@ -28,8 +28,29 @@ import ghost22 from '../assets/images/inktober2019/191022-ghost.jpg'
 import ancient23 from '../assets/images/inktober2019/191023-ancient.jpg'
 import dizzy24 from '../assets/images/inktober2019/191024-dizzy.jpg'
 import tasty25 from '../assets/images/inktober2019/191025-tasty.jpg'
+import dark26 from '../assets/images/inktober2019/191026-dark.jpg'
+import coat27 from '../assets/images/inktober2019/191027-coat.jpg'
+import ride28 from '../assets/images/inktober2019/191028-ride.jpg'
 
 const images = [
+  {
+    source: ride28,
+    thumbnail: ride28,
+    caption: 'Ride',
+    description: '10-28-2019',
+  },
+  {
+    source: coat27,
+    thumbnail: coat27,
+    caption: 'Coat',
+    description: '10-27-2019',
+  },
+  {
+    source: dark26,
+    thumbnail: dark26,
+    caption: 'Dark',
+    description: '10-26-2019',
+  },
   {
     source: tasty25,
     thumbnail: tasty25,
