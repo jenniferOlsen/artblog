@@ -1,4 +1,5 @@
 import React from 'react'
+import { OutboundLink } from 'gatsby-plugin-google-gtag'
 
 class Footer extends React.Component {
   render() {
@@ -6,7 +7,7 @@ class Footer extends React.Component {
       <div id="footer">
         <div className="inner">
           <ul className="copyright">
-            <li>&copy; <a href="https://jenniferolsen.github.io/">Jenny Olsen</a></li>
+            <li>&copy; <OutboundLink href="https://jenniferolsen.github.io/">Jenny Olsen</OutboundLink></li>
           </ul>
         </div>
       </div>

@@ -1,3 +1,22 @@
+body {
+  background: #0e1111;
+  color: #787878;
+
+  h1, h2, h3, h4, h5 {
+    color: #f0f0f0;
+  }
+}
+#header {
+  background-color: #7E57C2;
+}
+#header>.inner {
+  text-align: center;
+}
+#header h1 {
+  br {
+    display: block;
+  }
+}
 nav {
   margin-top: 10%;
   ul {
@@ -21,10 +40,13 @@ nav {
 .image.thumb img {
   height: 100%;
   object-fit: contain;
+  max-height: 300px;
 }
 
 .work-item {
   height: calc(300px + 3em);
+  text-align: center;
+  margin: 0 0 3em 0;
 }
 
 @media(max-width: 700px) {

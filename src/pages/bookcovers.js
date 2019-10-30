@@ -51,9 +51,6 @@ const images = [
 ]
 
 class BookCovers extends React.Component {
-  trackSelfPub() {
-    typeof window !== "undefined" && window.gtag("event", "select_content", "selfpubbookcovers.com")
-  }
   render() {
     return (
       <>
@@ -61,7 +58,7 @@ class BookCovers extends React.Component {
         <Layout>
           <section id="main">
             <h2>Book Covers</h2>
-            <p>Available for purchase at <OutboundLink href="https://selfpubbookcovers.com/index.php?option=com_author&view=searchartist&username=jennyo" onClick={ this.trackSelfPub }>SelfPubBookCovers.com</OutboundLink></p>
+            <p>Available for purchase at <OutboundLink href="https://selfpubbookcovers.com/index.php?option=com_author&view=searchartist&username=jennyo">SelfPubBookCovers.com</OutboundLink></p>
             <Gallery
               images={ images.map(
                 ({ source, thumbnail }) => ({
