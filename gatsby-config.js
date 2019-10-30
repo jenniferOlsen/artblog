@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Art blog",
+    title: "NinthDay Design",
     author: "Jenny Olsen",
-    description: "A Gatsby.js art blog based on Strata by HTML5 UP"
+    description: ""
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -19,6 +19,17 @@ module.exports = {
       },
     },
     'gatsby-plugin-sass',
-    'gatsby-plugin-offline'
+    'gatsby-plugin-offline',
+    {
+      resolve: `gatsby-plugin-gtag`,
+      options: {
+        // your google analytics tracking id
+        trackingId: `G-269E3QTFWL`,
+        // Puts tracking script in the head instead of the body
+        head: false,
+        // enable ip anonymization
+        anonymize: true,
+      },
+    },
   ],
 }
