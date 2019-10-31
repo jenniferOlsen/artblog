@@ -33,8 +33,15 @@ import coat27 from '../assets/images/inktober2019/191027-coat.jpg'
 import ride28 from '../assets/images/inktober2019/191028-ride.jpg'
 import injured29 from '../assets/images/inktober2019/191029-injured.jpg'
 import catch30 from '../assets/images/inktober2019/191030-catch.jpg'
+import ripe31 from '../assets/images/inktober2019/191031-ripe.jpg'
 
 const images = [
+  {
+    source: ripe31,
+    thumbnail: ripe31,
+    caption: 'Ripe',
+    description: '10-31-2019',
+  },
   {
     source: catch30,
     thumbnail: catch30,

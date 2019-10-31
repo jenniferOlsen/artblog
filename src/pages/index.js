@@ -1,10 +1,10 @@
 import React from 'react'
-import Inktober2019 from './inktober-2019'
+import TinyTarot from './tiny-tarot'
 
 class HomeIndex extends React.Component {
   render() {
     return (
-      <Inktober2019 />       
+      <TinyTarot />       
     )
   }
 }

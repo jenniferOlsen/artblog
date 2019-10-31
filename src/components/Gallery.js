@@ -18,6 +18,7 @@ class Gallery extends Component {
       lightboxIsOpen: !state.lightboxIsOpen,
       selectedIndex
     }))
+    window.gtag("event", "select_content", { "value": selectedIndex })
   }
   renderGallery(images) {
     if (!images[0].source) return 'Coming soon'
