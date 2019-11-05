@@ -18,8 +18,14 @@ import prisoner from '../assets/images/bookcovers/prisoner.jpg'
 import prisonerHR from '../assets/images/bookcovers/prisonerHR.jpg'
 import batwitch from '../assets/images/bookcovers/bat-witch.jpg'
 import batwitchHR from '../assets/images/bookcovers/bat-witchHR.jpg'
+import capri from '../assets/images/bookcovers/capri.jpg'
+import capriHR from '../assets/images/bookcovers/capriHR.jpg'
 
 const images = [
+  {
+    source: capriHR,
+    thumbnail: capri,
+  },
   {
     source: batwitchHR,
     thumbnail: batwitch,
