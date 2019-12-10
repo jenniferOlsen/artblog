@@ -26,7 +26,7 @@ export default function Contact() {
         ...state,
       }),
     })
-      // .then(() => navigate(form.getAttribute('action')))
+      .then(() => navigate(form.getAttribute('action')))
       .catch((error) => alert(error))
   }
 
@@ -37,7 +37,7 @@ export default function Contact() {
       <form
         name="ninthday design contact"
         method="post"
-        // action="/thanks/"
+        action="/thanks/"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
         onSubmit={ handleSubmit }
