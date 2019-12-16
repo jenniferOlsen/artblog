@@ -272,9 +272,10 @@ class TinyTarot extends React.Component {
             <h2>Tiny Tarot</h2>
             <h5>The tarot deck for smartwatches.</h5>
             <p>Available for &nbsp; 
+              <OutboundLink href="https://apps.apple.com/app/id1490945261">Apple&nbsp;Watch</OutboundLink>,&nbsp;
               <OutboundLink href="https://gallery.fitbit.com/details/4b20db37-f659-4ed4-935b-1063d73b7fa1">Fitbit</OutboundLink>,&nbsp;
-              <OutboundLink href="https://play.google.com/store/apps/details?id=com.ninthday.tinytarot">WearOS (Android)</OutboundLink>,&nbsp;
-              Tizen/Samsung (coming soon),&nbsp;and WatchOS (coming soon).
+              <OutboundLink href="https://play.google.com/store/apps/details?id=com.ninthday.tinytarot">WearOS (Android)</OutboundLink>,&nbsp;and&nbsp;
+              <OutboundLink href="https://galaxy.store/tinytarot">Tizen/Samsung </OutboundLink>.
             </p>
             <Gallery
               images={ images.map(
